@@ -13,10 +13,12 @@ $(document).ready(function(){
 });
 ```
 
-```
+```sh
 bower install sequencejs
 npm install sequencejs
+```
 
+```js
 $(document).ready(function(){
   var options = {
     autoPlay: true,
@@ -98,7 +100,7 @@ $('#create').on('click', function(){
 });
 ```
 
-```
+```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="scripts/jquery.sequence-min.js"></script>
 ```
